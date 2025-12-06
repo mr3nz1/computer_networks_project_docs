@@ -1,0 +1,40 @@
+site_name: Phase II Documentation
+site_description: Phase 2 — Network/System Configurations Documentation
+site_author: Paterne MURENZI
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+nav:
+  - Home: index.md
+  - Task 1 - Pfsense config: pfsense.md
+  - Task 2 - Active Directory & Group Policy: ad_gpo.md
+  - Task 3 - Linux Documentation Server: linux_docs.md
+  - Task 4 - Wazuh Documentation: wazuh.md
+  - Task 5 - Suricata Documentation: suricata.md
+  - Task 6 - Kali Documentation: kali.md
+  - Task 7 - VPN Documentation: vpn.md
+  - Task 8 - NTOPng Documentation: ntopng.md

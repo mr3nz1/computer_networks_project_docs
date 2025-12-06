@@ -1,0 +1,20 @@
+# Nmap 7.95 scan initiated Sat Dec  6 21:39:31 2025 as: /usr/lib/nmap/nmap --privileged -sS -Pn -T4 --open -oN nmap_scan_28302_2025_12_06.txt 1-65535 192.168.2.0/29
+Failed to resolve "1-65535".
+Nmap scan report for pfSense.28302.f25 (192.168.2.1)
+Host is up (0.0072s latency).
+Not shown: 998 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 08:00:27:B1:CF:B6 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 192.168.2.4
+Host is up (0.0013s latency).
+Not shown: 999 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+135/tcp open  msrpc
+MAC Address: 08:00:27:26:5B:50 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sat Dec  6 21:39:40 2025 -- 8 IP addresses (3 hosts up) scanned in 9.18 seconds

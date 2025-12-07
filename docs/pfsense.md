@@ -39,12 +39,12 @@ This section documents the configuration of pfSense for the Phase 2 lab environm
 
 ## 4. Firewall Rules
 
-| Rule Name                       | Purpose                                                                           |
-|---------------------------------|-----------------------------------------------------------------------------------|
-| ALLOW_StudentID_LAN1_TO_LAN2    | Allow bi-directional traffic between LAN1 and LAN2                                |
-| ALLOW_StudentID_ALL_TO_WEBPAGES | Allow LAN1, LAN2, NAT to access hosted web pages                                  |
-| KaliPentest_StudentID           | Allow Kali (Public/NAT) access to internal networks for 1 hour (schedule applied) |
-| LAN2_NoSocial_StudentID         | Block social media on LAN2 during 09:00–12:00 and 13:00–17:00                     |
+| Rule Name                   | Purpose                                                                           |
+|-----------------------------|-----------------------------------------------------------------------------------|
+| ALLOW_28302_LAN1_TO_LAN2    | Allow bi-directional traffic between LAN1 and LAN2                                |
+| ALLOW_28302_ALL_TO_WEBPAGES | Allow LAN1, LAN2, NAT to access hosted web pages                                  |
+| KaliPentest_28302           | Allow Kali (Public/NAT) access to internal networks for 1 hour (schedule applied) |
+| LAN2_NoSocial_28302         | Block social media on LAN2 during 09:00–12:00 and 13:00–17:00                     |
 
 **Evidence:**  
 ![Firewall Rules](images/Task 1/firewall/Screenshot 2025-12-06 222936.png "Firewall rules screenshot")
@@ -71,7 +71,7 @@ This section documents the configuration of pfSense for the Phase 2 lab environm
 
 **Evidence:**  
 ![Syslog Forwarding](images/Task 5/tcpdump on wazuh from pfsense.png "Syslog forwarding configuration screenshot")
-![Syslog Forwarding](docs/images/Task 4/Suricata logs on wazuh.png "Syslog forwarding configuration screenshot")
+![Syslog Forwarding](images/Task 4/Suricata logs on wazuh.png "Syslog forwarding configuration screenshot")
 ---
 
 ## 7. Automated Backups

@@ -1,7 +1,7 @@
 # Phase 2: Network/System Configurations Documentation
 
 Welcome to the official documentation site for **Phase 2: Network/System Configurations**.  
-This documentation is prepared by **Paterne MURENZI (StudentID: 28302)**.
+This documentation is prepared by **Paterne MURENZI (ID: 28302)**.
 
 ---
 
@@ -45,17 +45,17 @@ The lab is designed with multiple LAN segments:
 
 ## Virtual Machines Configuration
 
-| VM Role                           | Hostname            | IP Address                                      | Network Segment | Notes                                   |
-|-----------------------------------|---------------------|-------------------------------------------------|-----------------|-----------------------------------------|
-| Windows Server (AD+DNS+NTP)       | AD-StudentID        | 192.168.1.2                                     | LAN1            | Domain Controller, GPO management       |
-| Linux Server (DHCP + Samba + IDS) | LS-StudentID        | 192.168.1.3                                     | LAN1            | DHCP provider for LAN1, Samba, FTP, SSH |
-| Wazuh Server                      | WS-StudentID        | 192.168.1.4                                     | LAN1            | SIEM, FIM, log correlation              |
-| Windows Client                    | PC1-StudentID       | DHCP LAN2                                       | LAN2            | Domain member, GPO testing              |
-| Windows Client                    | PC2-StudentID       | DHCP LAN2                                       | LAN2            | GPO and software deployment testing     |
-| Linux Client                      | LC-StudentID        | DHCP LAN1/LAN2                                  | LAN1/LAN2       | Samba, SSH, DHCP testing                |
-| pfSense Firewall                  | PF-StudentID        | LAN1: 192.168.1.1, LAN2: 192.168.2.1, WAN: DHCP | LAN1, LAN2, WAN | Routing, firewall, NAT, OpenVPN, IDS    |
-| Kali Linux                        | Kali-StudentID      | DHCP NAT                                        | NAT             | Pentesting and scanning                 |
-| Windows VPN Client                | VPNClient-StudentID | DHCP NAT                                        | NAT             | OpenVPN connectivity testing            |
+| VM Role                           | Hostname        | IP Address                                      | Network Segment | Notes                                   |
+|-----------------------------------|-----------------|-------------------------------------------------|-----------------|-----------------------------------------|
+| Windows Server (AD+DNS+NTP)       | AD-28302        | 192.168.1.2                                     | LAN1            | Domain Controller, GPO management       |
+| Linux Server (DHCP + Samba + IDS) | LS-28302        | 192.168.1.3                                     | LAN1            | DHCP provider for LAN1, Samba, FTP, SSH |
+| Wazuh Server                      | WS-28302        | 192.168.1.4                                     | LAN1            | SIEM, FIM, log correlation              |
+| Windows Client                    | PC1-28302       | DHCP LAN2                                       | LAN2            | Domain member, GPO testing              |
+| Windows Client                    | PC2-28302       | DHCP LAN2                                       | LAN2            | GPO and software deployment testing     |
+| Linux Client                      | LC-28302        | DHCP LAN1/LAN2                                  | LAN1/LAN2       | Samba, SSH, DHCP testing                |
+| pfSense Firewall                  | PF-28302        | LAN1: 192.168.1.1, LAN2: 192.168.2.1, WAN: DHCP | LAN1, LAN2, WAN | Routing, firewall, NAT, OpenVPN, IDS    |
+| Kali Linux                        | Kali-28302      | DHCP NAT                                        | NAT             | Pentesting and scanning                 |
+| Windows VPN Client                | VPNClient-28302 | DHCP NAT                                        | NAT             | OpenVPN connectivity testing            |
 
 > More details will be provided in their respective sections (`pfsense/`, `ad/`, `linux/`, etc.).
 
@@ -68,7 +68,7 @@ The lab demonstrates:
 - **Active Directory**: OU structure, user accounts, login policies.
 - **Group Policy Objects (GPOs)**: Mapped drives, roaming profiles, software deployment, password policies.
 - **Linux services**: DHCP for LAN1, Samba file shares, FTP, SSH.
-- **Portfolio website**: Hosted on IIS with full name, StudentID, profile picture, and CV.
+- **Portfolio website**: Hosted on IIS with full name, 28302, profile picture, and CV.
 
 ---
 

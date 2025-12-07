@@ -8,7 +8,7 @@ Phase 2 lab.
 ## 1. Windows Server Installation & Promotion
 
 - Installed Windows Server (2008–2022 recommended).
-- Promoted to **Domain Controller** for domain: `StudentID.f25`.
+- Promoted to **Domain Controller** for domain: `28302.f25`.
 
 **Evidence:**  
 ![DC Promotion](images/Task 2/domain_controller_evidence.png "Domain Controller promotion screenshot")
@@ -45,7 +45,7 @@ Phase 2 lab.
 - Installed IIS on the DC.
 - Hosted a portfolio website with:
     - Full name
-    - StudentID
+    - 28302
     - Profile picture
     - Professional summary
     - Education & experience

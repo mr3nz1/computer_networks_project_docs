@@ -12,7 +12,7 @@ Prepared by **Paterne MURENZI (StudentID: 28302)**
 
 - Download Wazuh OVA version 4.14.0
 - Import into virtualization platform (VMware/VirtualBox)
-- Power on and configure network (static IP if required)
+- Power on and configure network 192.168.1.4
 
 #### 1.2 Configure Hostname
 
@@ -29,8 +29,8 @@ hostnamectl
 
 #### 1.3 Access Manager UI
 
-- Open browser: `https://<Wazuh-IP>:55000`
-- Create administrative user for dashboard access (if Kibana is integrated)
+- Open browser: `https://192.168.1.4`
+- Login
 
 ---
 
@@ -57,7 +57,7 @@ curl -s https://packages.wazuh.com/install.sh | sudo bash
 Register with manager using registration key:
 
 ```bash
-/var/ossec/bin/agent-auth -m <WazuhManager-IP> -p 1515
+/var/ossec/bin/agent-auth -m 192.168.1.4 -p 1515
 ```
 
 Start agent service and verify:

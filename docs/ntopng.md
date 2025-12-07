@@ -46,4 +46,4 @@ Default credentials: admin/admin (change immediately)
 ## 3. Dashboards
 
 ![Suricata](Screenshot 2025-12-06 171025.png "Eve json")
-![Suricata](docs/images/Task 1/ntopng/Screenshot 2025-12-06 171057.png "Eve json")
+![Suricata](images/Task 1/ntopng/Screenshot 2025-12-06 171057.png "Eve json")
